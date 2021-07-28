@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_order_confirm_wizard_group_sale_order_mass_confirm,access.sale.order.confirm.wizard.group_sale_order_mass_confirm,model_sale_order_confirm_wizard,sale_order_mass_confirm.group_sale_order_mass_confirm,1,1,1,1

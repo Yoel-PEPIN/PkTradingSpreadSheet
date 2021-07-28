@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="ace_view_pos_config_form">
+            <field name="name">pos.config.form.view</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='posbox_reference']" position="after">
+                    <h2>Sale Order Configurations</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-xs-12 col-md-6 o_setting_box" id="sale_order_operations">
+                            <div class="o_setting_right_pane">
+                                <div class="content-group mt16">
+                                    <div class="row mt16">
+                                        <label string="Paid Amount Product" for="paid_amount_product" class="col-md-3 o_light_label"/>
+                                        <field name="paid_amount_product"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="aspl_view_order_form" model="ir.ui.view">
+            <field name="name">sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <field name="amount_total" position="after">
+                    <field name="amount_due" />
+                </field>
+            </field>
+        </record>
+
+        <record id="product_paid_amount" model="product.product">
+            <field name="name">Paid Amount</field>
+            <field name="default_code">Paid-Amount</field>
+            <field name="sale_ok" eval="True"/>
+            <field name="available_in_pos" eval="True"/>
+            <field name="list_price">0</field>
+            <field name="type">service</field>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="description">This is a dummy product used user edit the drafted order as paid amount.</field>
+        </record>
+
+        <record id="aspl_pos_create_so_extension_form_view" model="ir.ui.view">
+            <field name="name">res.users.inherit.view</field>
+            <field name="model">res.users</field>
+            <field name="inherit_id" ref="base.view_users_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Point of Sale">
+                        <h3>Operation Restriction</h3>
+                        <group>
+                            <group>
+                                <field name="display_own_sales_order"/>
+                                <field name="sale_order_operations"/>
+                                <field name="sale_order_invoice"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

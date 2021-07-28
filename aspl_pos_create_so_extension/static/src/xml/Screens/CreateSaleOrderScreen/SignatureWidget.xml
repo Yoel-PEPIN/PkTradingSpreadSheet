@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="SignatureWidget" owl="1">
+        <div id="tab-4" class="tab-content">
+            <div class="date_box">
+                <div style="float: left">
+                     <span>Signed By</span>
+                     <input t-on-focusout="captureChange" t-model="state.SignedBy" type="text" />
+                </div>
+                <div style="float: left">
+                     <span>Signed On</span>
+                     <input t-on-focusout="captureChange" t-model="state.SignedOn" type="date"/>
+                </div>
+            </div>
+            <div id="signature_canvas">
+            </div>
+            <button class="discard clear-signature" t-on-click="applySign">
+                Apply
+            </button>
+            <button class="discard clear-signature" t-on-click="clear">
+                Clear
+            </button>
+        </div>
+    </t>
+
+</templates>

@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* aces_pos_enlarge_image
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-01 22:11+0000\n"
+"PO-Revision-Date: 2021-07-01 22:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: aces_pos_enlarge_image
+#. openerp-web
+#: code:addons/aces_pos_enlarge_image/static/src/xml/Popups/ImagePopup.xml:0
+#, python-format
+msgid "Close"
+msgstr "Femer"
+
+#. module: aces_pos_enlarge_image
+#: model:ir.model.fields,field_description:aces_pos_enlarge_image.field_pos_config__display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: aces_pos_enlarge_image
+#: model:ir.model.fields,field_description:aces_pos_enlarge_image.field_pos_config__enable_show_image
+msgid "Enable Show Image"
+msgstr "Activer de l'affichage des images"
+
+#. module: aces_pos_enlarge_image
+#: model:ir.model.fields,field_description:aces_pos_enlarge_image.field_pos_config__id
+msgid "ID"
+msgstr "ID"
+
+#. module: aces_pos_enlarge_image
+#: model:ir.model.fields,field_description:aces_pos_enlarge_image.field_pos_config____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: aces_pos_enlarge_image
+#: model:ir.model,name:aces_pos_enlarge_image.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuration du point de vente"
+
+#. module: aces_pos_enlarge_image
+#: model_terms:ir.ui.view,arch_db:aces_pos_enlarge_image.ace_view_pos_config_form
+msgid "Use To See Large Product Image."
+msgstr "Utilisé pour agrandir l'image d'un produit"

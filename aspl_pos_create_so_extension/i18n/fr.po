@@ -1,0 +1,884 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* aspl_pos_create_so_extension
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 02:45+0000\n"
+"PO-Revision-Date: 2021-07-19 02:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_sale_order__amount_due
+#, python-format
+msgid "Amount Due"
+msgstr "Montant dû"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Annuler"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/SignatureWidget.xml:0
+#, python-format
+msgid "Apply"
+msgstr "Appliquer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "Are you sure you want to create  ?"
+msgstr "Êtes-vous sûr de vouloir créer ?"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
+#, python-format
+msgid "Back"
+msgstr "Retour"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Popups/SaleOrderReturnPopup.js:0
+#, python-format
+msgid "Cancel"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Popups/PopupProductLines.js:0
+#, python-format
+msgid "Cannot exceed more than available quantity!!"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "City"
+msgstr "Ville"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/SignatureWidget.xml:0
+#, python-format
+msgid "Clear"
+msgstr "Effacer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Client"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Cliquer sur Entrée pour continuer."
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Popups/SaleOrderConfirmPopup.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#, python-format
+msgid "Close"
+msgstr "Fermer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Commande"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Commande créée:"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/screen.js:0
+#, python-format
+msgid "Configuration Required"
+msgstr "Configuration Requise"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/SaleOrderScreen/SaleOrderScreen.js:0
+#: model:ir.model.fields.selection,name:aspl_pos_create_so_extension.selection__res_users__sale_order_operations__confirm
+#, python-format
+msgid "Confirm"
+msgstr "Confirmer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/PaymentScreen/PaymentScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Confirmation"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Confirmation de la commande"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Confirmer"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Consumer"
+msgstr "Consommateur"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model,name:aspl_pos_create_so_extension.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Continuer"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Country"
+msgstr "Pays"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Create"
+msgstr "Créer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Create SO"
+msgstr "Créer commande"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Create and Pay"
+msgstr "Créer et payer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Popups/SaleOrderConfirmPopup.xml:0
+#, python-format
+msgid "Created :"
+msgstr "Créé :"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Créer commande"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Créer devis"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#, python-format
+msgid "Customer"
+msgstr "Client"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Date commande"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Deemed Export"
+msgstr "Exportation réputée"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Devis"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Devis créé:"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Devis mis à jour:"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/screen.js:0
+#, python-format
+msgid "Discard Sale Order"
+msgstr "Annuler le bon de commande"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_pos_config__display_name
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users__display_name
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nom à afficher"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users__display_own_sales_order
+msgid "Display Own Sales Order"
+msgstr "Afficher ses propres commandes"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/screen.js:0
+#, python-format
+msgid "Do you want to discard the payment of sale order  ?"
+msgstr "Voulez-vous annuler le paiement de la commande  ?"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/SaleOrderScreen/SaleOrderScreen.js:0
+#, python-format
+msgid "Done"
+msgstr "Fait"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Popups/SaleOrderConfirmPopup.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#, python-format
+msgid "Download"
+msgstr "Téléchargement"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#, python-format
+msgid "Due Date"
+msgstr "Date d'échéance"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Edit"
+msgstr "Editer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Editer"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Email"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/ProductScreen/ProductScreen.js:0
+#, python-format
+msgid "Error"
+msgstr "Erreur"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Fait"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "GST Treatment"
+msgstr "Traitement GST"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_pos_config__id
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users__id
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "Invalid Email!"
+msgstr "Email invalide!"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users__sale_order_invoice
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#, python-format
+msgid "Invoice Address"
+msgstr "Adresse de facturation"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#, python-format
+msgid "Invoice Date"
+msgstr "Date de facturation"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#, python-format
+msgid "Invoice to Different Address"
+msgstr "Facturer à une adresse différente"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/InvoicesButton.xml:0
+#, python-format
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_pos_config____last_update
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users____last_update
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid ""
+"Le système doit faire le bon de livraison avant de créer la facture en "
+"raison des produits suivants de votre panier."
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Mes commandes"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Mettre à jour devis"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Mobile"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.xml:0
+#, python-format
+msgid "Modifier devis"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Modify"
+msgstr "Modifier"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Montant dû"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#, python-format
+msgid "Name"
+msgstr "Nom"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/InvoiceScreen/InvoiceLine.js:0
+#, python-format
+msgid "Network Error"
+msgstr "Erreur réseau"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Nom"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/NoteWidget.xml:0
+#, python-format
+msgid "Note"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Note:"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "OK"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_res_users__sale_order_operations
+#, python-format
+msgid "Operation"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#: model_terms:ir.ui.view,arch_db:aspl_pos_create_so_extension.aspl_pos_create_so_extension_form_view
+msgid "Operation Restriction"
+msgstr "Restriction d'opération"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#, python-format
+msgid "Order Date"
+msgstr "Date de commande"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Overseas"
+msgstr "A l'étranger"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields.selection,name:aspl_pos_create_so_extension.selection__res_users__sale_order_operations__paid
+msgid "Paid"
+msgstr "Payé"
+
+#. module: aspl_pos_create_so_extension
+#: model:product.product,name:aspl_pos_create_so_extension.product_paid_amount
+#: model:product.template,name:aspl_pos_create_so_extension.product_paid_amount_product_template
+msgid "Paid Amount"
+msgstr "Montant payé"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model.fields,field_description:aspl_pos_create_so_extension.field_pos_config__paid_amount_product
+#: model_terms:ir.ui.view,arch_db:aspl_pos_create_so_extension.ace_view_pos_config_form
+msgid "Paid Amount Product"
+msgstr "Produit du montant payé"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Pay"
+msgstr "Payé"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
+#, python-format
+msgid "Pay Invoice"
+msgstr "Facture payée"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Payer"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.js:0
+#, python-format
+msgid "Please Select Customer!"
+msgstr "Veuillez sélectionner un client!"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/ProductScreen/ControlButtons/CreateSaleOrderButton.js:0
+#, python-format
+msgid "Please Select Product!"
+msgstr "Veuillez sélectionner un produit!"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/screen.js:0
+#, python-format
+msgid "Please configure dummy product for paid amount from POS configuration"
+msgstr ""
+"Veuillez configurer le produit factice pour le montant payé de la "
+"configuration du PDV"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "Please enter name of invoice partner!!"
+msgstr "Veuillez saisir le nom du client facturé !!"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "Please enter name of shipping partner!!"
+msgstr "Veuillez entrer le nom du client d'expédition !!"
+
+#. module: aspl_pos_create_so_extension
+#: model_terms:ir.ui.view,arch_db:aspl_pos_create_so_extension.aspl_pos_create_so_extension_form_view
+msgid "Point of Sale"
+msgstr "Point de vente"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model,name:aspl_pos_create_so_extension.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuration du point de vente"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Popups/SaleOrderReturnPopup.xml:0
+#, python-format
+msgid "Product"
+msgstr "Produit"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Popups/SaleOrderReturnPopup.xml:0
+#, python-format
+msgid "Quantity"
+msgstr "Quantité"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "Quotation"
+msgstr "Devis"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/SaleOrderScreen/SaleOrderScreen.js:0
+#: model:ir.model.fields.selection,name:aspl_pos_create_so_extension.selection__res_users__sale_order_operations__draft
+#, python-format
+msgid "Quotations"
+msgstr "Devis"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Registered Business - Composition"
+msgstr "Entreprise enregistrée - Composition"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Registered Business - Regular"
+msgstr "Entreprise enregistrée - Régulière"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#, python-format
+msgid "SO"
+msgstr "Commande"
+
+#. module: aspl_pos_create_so_extension
+#: model_terms:ir.ui.view,arch_db:aspl_pos_create_so_extension.ace_view_pos_config_form
+msgid "Sale Order Configurations"
+msgstr "Configuration des commandes"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/ProductScreen/ControlButtons/ViewSaleOrderButton.xml:0
+#, python-format
+msgid "Sale Orders"
+msgstr "Commandes"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model,name:aspl_pos_create_so_extension.model_sale_order
+msgid "Sales Order"
+msgstr "Commande"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Search orders"
+msgstr "Ordre de recherche"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Select Address"
+msgstr "Adresse sélectionné"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Ship to Different Address"
+msgstr "Envoyer à une adresse différente"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/SignatureWidget.xml:0
+#, python-format
+msgid "Signed By"
+msgstr "Signé par"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/SignatureWidget.xml:0
+#, python-format
+msgid "Signed On"
+msgstr "Signé par"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/SaleOrderScreen/SaleOrdersLine.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/SaleOrderScreen/SaleOrdersLine.js:0
+#, python-format
+msgid "Sorry, No items available for return sale order!"
+msgstr "Désolé, aucun article disponible pour la commande de vente de retour !"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Special Economic Zone"
+msgstr "Zone économique spéciale"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "States"
+msgstr "Etats"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Popups/SaleOrderConfirmPopup.js:0
+#, python-format
+msgid "Successful"
+msgstr "Succès"
+
+#. module: aspl_pos_create_so_extension
+#: model:product.product,description:aspl_pos_create_so_extension.product_paid_amount
+#: model:product.template,description:aspl_pos_create_so_extension.product_paid_amount_product_template
+msgid ""
+"This is a dummy product used user edit the drafted order as paid amount."
+msgstr ""
+"Le système doit passer la commande avant la création de la facture en raison"
+" des produits suivants de votre panier."
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/InvoiceScreen/InvoiceScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/SaleOrderScreen/SaleOrderScreen.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Total"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model,name:aspl_pos_create_so_extension.model_stock_picking
+msgid "Transfer"
+msgstr "Transférer"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.js:0
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/InvoiceScreen/InvoiceLine.js:0
+#, python-format
+msgid "Unable to download invoice."
+msgstr "Impossible de télécharger la facture."
+
+#. module: aspl_pos_create_so_extension
+#: model:product.product,uom_name:aspl_pos_create_so_extension.product_paid_amount
+#: model:product.template,uom_name:aspl_pos_create_so_extension.product_paid_amount_product_template
+msgid "Unit(s)"
+msgstr "Unité(s)"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/CreateSaleOrderScreen.xml:0
+#, python-format
+msgid "Unregistered Business"
+msgstr "Entreprise non enregistrée"
+
+#. module: aspl_pos_create_so_extension
+#: model:ir.model,name:aspl_pos_create_so_extension.model_res_users
+msgid "Users"
+msgstr "Utilisateurs"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
+#, python-format
+msgid "Validate"
+msgstr "Valider"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/PaymentScreen/PaymentScreen.xml:0
+#, python-format
+msgid "Validate SO"
+msgstr "Valider le bon de commande"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "Valider commande"
+msgstr ""
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/PaymentScreen/PaymentScreen.js:0
+#, python-format
+msgid "Would you like to Discard this order?"
+msgstr "Souhaitez-vous annuler cette commande ?"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/js/Screens/ProductScreen/ProductScreen.js:0
+#, python-format
+msgid "You don't have access rights to proceed further !!"
+msgstr "Vous n'avez pas les droits d'accès pour continuer !!"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/InvoiceAddressWidget.xml:0
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/Screens/CreateSaleOrderScreen/ShippingAddressWidget.xml:0
+#, python-format
+msgid "Zip"
+msgstr "Code postal"
+
+#. module: aspl_pos_create_so_extension
+#. openerp-web
+#: code:addons/aspl_pos_create_so_extension/static/src/xml/pos.xml:0
+#, python-format
+msgid "yyyy-mm-dd"
+msgstr ""

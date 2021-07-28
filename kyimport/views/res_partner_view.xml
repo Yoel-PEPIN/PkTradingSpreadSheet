@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="kyimport.view_partner_unbilled_customer_tree" model="ir.ui.view">
+            <field name="name">res.partner.unbilled.customer.tree</field>
+            <field name="model">res.partner.unbilled.customer</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="nb_days_without_billing"/>
+                    <field name="last_invoice_create_date"/>
+                    <field name="last_invoice_year"/>
+                    <field name="payment_term"/>
+                    <field name="vendor_name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="kyimport.view_res_partner_tree" model="ir.ui.view">
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+                <field name="email" position="after">
+                    <field name="payment_term_id_use_in_filter"/>
+                    <field name="mobile"/>
+                    <field name="street"/>
+                    <field name="city"/>
+                    <field name="zip"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_res_partner_last_created_filter" model="ir.ui.view">
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_res_partner_filter"/>
+            <field name="arch" type="xml">
+                <xpath expr="//search/field[@name='user_id']" position="after">
+                    <filter string="Last created partners"
+                            domain="[('create_date', '&gt;=', ((context_today()-datetime.timedelta(days=7)).strftime('%Y-%m-%d'))), ('partner_share', '=', 'true')]"
+                            help="Last created partners" name="last_created_partners"/>
+                </xpath>
+                <xpath expr="//group[@name='group_by']/filter[@name='group_country']" position="after">
+                    <filter name="group_payment_term" string="Payment term" context="{'group_by': 'payment_term_id_use_in_filter'}"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="action_last_created_partners" model="ir.actions.act_window">
+            <field name="name">Last created partners</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.partner</field>
+            <field name="view_mode">tree,form,calendar,graph,pivot,kanban</field>
+            <field name="context">{'search_default_last_created_partners': 0}</field>
+            <field name="search_view_id" ref="view_res_partner_last_created_filter"/>
+        </record>
+    </data>
+</odoo>
